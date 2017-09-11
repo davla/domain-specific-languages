@@ -1,0 +1,22 @@
+<!DOCTYPE aesl-source>
+<network>
+
+
+<!--list of global events-->
+<event size="7" name="Prox"/>
+
+
+<!--list of constants-->
+
+
+<!--show keywords state-->
+<keywords flag="true"/>
+
+
+<!--node thymio-II-->
+<node nodeId="9306" name="thymio-II">onevent prox
+emit Prox prox.horizontal
+</node>
+
+
+</network>
